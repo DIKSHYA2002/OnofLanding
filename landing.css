@@ -1,0 +1,106 @@
+*{
+    /* border: 1px black solid; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    padding: 30px;
+}
+.logo img{
+    height:80px ;
+    width: 200px;
+    
+}
+.mid-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav .getStarted button{
+      width: 140px ;
+      height: 50px;
+      border-radius: 20px;
+      background-color: #2B9BFF;
+      border: none;
+      color: white;
+      font-size: 15px;
+      
+}
+.nav .getStarted{
+    padding: 30px;
+}
+.mid-nav ul li{
+    padding: 30px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #134978;
+}
+
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.content1 .gallery img{
+    height: 300px;
+    width: 350px;
+    padding-left: 50px;
+    border-radius: 30px ;
+}
+
+.content1 .gallery{
+    padding: 60px;
+    position: relative;
+}
+.content1 .gallery .hardware{
+    position: absolute;
+    top: -5%;
+    right: 90%;
+    
+}
+
+.content1 .gallery img{
+    margin-left: 20px;
+    border-radius: 30px ;
+}
+.content1 .textContent
+{
+    padding: 20px;
+
+}
+.content1 .textContent .text{
+    padding: 15px;
+}
+.text h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: #134978;
+    line-height: 60px;
+
+}
+.text h3{
+    font-size: 20px;
+    padding: 5px;
+    color: #5b7993;
+}
+
+.btns button{
+    width: 140px ;
+      height: 50px;
+      border-radius: 20px;
+      background-color: #2B9BFF;
+      border: none;
+      color: white;
+      margin: 10px;
+      font-size: 17px;
+}
